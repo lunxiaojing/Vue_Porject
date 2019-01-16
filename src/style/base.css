@@ -1,0 +1,32 @@
+html, body,a,address,b,big,blockquote,body,center,cite,code,dd,del,div,dl,dt,em,fieldset,font,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,label,legend,li,ol,p,pre,small,span,strong,u,ul,var
+{ margin: 0; padding: 0; font-family: "SimHei";}
+input:focus,select:focus,button{ outline: 0; }
+textarea{ outline:none; resize: none; }
+em,b,strong,i,label{ font-style: normal; font-weight:400; }
+ul, li, ol { list-style: none; /* cursor: pointer;  */}
+a, a:link,a:hover,a:active{ text-decoration: none;background-color:transparent;}
+a:focus { outline: none; }
+.hiden{ visibility: hidden; }
+html,body{ -ms-overflow-style: scrollbar;}
+body{ -webkit-font-smoothing: antialiased; background-color: #fffdef; -moz-osx-font-smoothing: grayscale; -webkit-tap-highlight-color:rgba(0,0,0,0); font-size: 14px;}
+*{
+  word-break: break-all;box-sizing: border-box;
+  /* */
+  -moz-user-select:none;
+  -webkit-user-select:none;
+  -ms-user-select:none;/*IE10*/
+  -khtml-user-select:none;
+  user-select:none;
+}
+input:focus,input,button{
+  outline: none !important;
+}
+/**/
+.ell{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+/**/
+
+.fl{ float:left;}
+.fr{ float:right;}
+.clearfix:after{ content:""; display:block; clear:both;}
+.clearfix{ zoom:1;}
+.maxWidth{width: 1200px;margin: 0 auto;}
